@@ -1,0 +1,5 @@
+/home/pratham/Projects/WebServer/CMakeFiles/example.dir
+/home/pratham/Projects/WebServer/CMakeFiles/package.dir
+/home/pratham/Projects/WebServer/CMakeFiles/package_source.dir
+/home/pratham/Projects/WebServer/CMakeFiles/edit_cache.dir
+/home/pratham/Projects/WebServer/CMakeFiles/rebuild_cache.dir
