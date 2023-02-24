@@ -1,4 +1,4 @@
-# Install script for directory: /home/pratham/Projects/WebServer
+# Install script for directory: /home/pratham/Projects/Networking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pratham/Projects/WebServer/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pratham/Projects/Networking/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

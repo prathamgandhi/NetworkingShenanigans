@@ -57,33 +57,13 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pratham/Projects/WebServer
+CMAKE_SOURCE_DIR = /home/pratham/Projects/Networking
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pratham/Projects/WebServer
+CMAKE_BINARY_DIR = /home/pratham/Projects/Networking
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	/usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-.PHONY : package/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/pratham/Projects/WebServer/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-.PHONY : package_source/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -107,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pratham/Projects/WebServer/CMakeFiles /home/pratham/Projects/WebServer//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pratham/Projects/Networking/CMakeFiles /home/pratham/Projects/Networking//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pratham/Projects/WebServer/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pratham/Projects/Networking/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -173,6 +153,54 @@ Examples/testSocket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Examples/testSocket.cpp.s
 .PHONY : Examples/testSocket.cpp.s
 
+Server/http_server.o: Server/http_server.cpp.o
+.PHONY : Server/http_server.o
+
+# target to build an object file
+Server/http_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Server/http_server.cpp.o
+.PHONY : Server/http_server.cpp.o
+
+Server/http_server.i: Server/http_server.cpp.i
+.PHONY : Server/http_server.i
+
+# target to preprocess a source file
+Server/http_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Server/http_server.cpp.i
+.PHONY : Server/http_server.cpp.i
+
+Server/http_server.s: Server/http_server.cpp.s
+.PHONY : Server/http_server.s
+
+# target to generate assembly for a file
+Server/http_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Server/http_server.cpp.s
+.PHONY : Server/http_server.cpp.s
+
+Server/web_socket.o: Server/web_socket.cpp.o
+.PHONY : Server/web_socket.o
+
+# target to build an object file
+Server/web_socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Server/web_socket.cpp.o
+.PHONY : Server/web_socket.cpp.o
+
+Server/web_socket.i: Server/web_socket.cpp.i
+.PHONY : Server/web_socket.i
+
+# target to preprocess a source file
+Server/web_socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Server/web_socket.cpp.i
+.PHONY : Server/web_socket.cpp.i
+
+Server/web_socket.s: Server/web_socket.cpp.s
+.PHONY : Server/web_socket.s
+
+# target to generate assembly for a file
+Server/web_socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Server/web_socket.cpp.s
+.PHONY : Server/web_socket.cpp.s
+
 Socket/socket.o: Socket/socket.cpp.o
 .PHONY : Socket/socket.o
 
@@ -228,13 +256,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... package"
-	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... example"
 	@echo "... Examples/testSocket.o"
 	@echo "... Examples/testSocket.i"
 	@echo "... Examples/testSocket.s"
+	@echo "... Server/http_server.o"
+	@echo "... Server/http_server.i"
+	@echo "... Server/http_server.s"
+	@echo "... Server/web_socket.o"
+	@echo "... Server/web_socket.i"
+	@echo "... Server/web_socket.s"
 	@echo "... Socket/socket.o"
 	@echo "... Socket/socket.i"
 	@echo "... Socket/socket.s"

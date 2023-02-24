@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(example_project)
 
-file(GLOB_RECURSE sources Socket/*.cpp Examples/testSocket.cpp)
+file(GLOB_RECURSE sources Socket/*.cpp Server/*.cpp Examples/testSocket.cpp)
 
 set(CMAKE_BINARY_DIR ./Examples)
 

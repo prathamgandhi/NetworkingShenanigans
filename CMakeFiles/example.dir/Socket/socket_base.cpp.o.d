@@ -1,7 +1,7 @@
 CMakeFiles/example.dir/Socket/socket_base.cpp.o: \
- /home/pratham/Projects/WebServer/Socket/socket_base.cpp \
+ /home/pratham/Projects/Networking/Socket/socket_base.cpp \
  /usr/include/stdc-predef.h \
- /home/pratham/Projects/WebServer/Socket/socket_base.hpp \
+ /home/pratham/Projects/Networking/Socket/socket_base.hpp \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \

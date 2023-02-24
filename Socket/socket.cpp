@@ -9,8 +9,11 @@ GandhiPro::Socket::Socket(int domain, int type, int protocol, int port, u_long a
     requestBuffer = new char[bufferSize];
     
     this->backlog = backlog;
-    int listenStatus = listen(socky, backlog);
-    testSocketConnection(listenStatus);
+
+    if(connType == Socket::BIND){
+        int listenStatus = listen(socky, backlog);
+        testSocketConnection(listenStatus);
+    }
     
 }
 
@@ -19,10 +22,12 @@ GandhiPro::Socket::~Socket(){
 }
 
 void GandhiPro::Socket::listenConnection(){
+
+    
     acceptConnection = accept(socky, (struct sockaddr *)&address, (socklen_t *)&addrlen);
     testSocketConnection(acceptConnection);
-    long valRead = read(acceptConnection, requestBuffer, bufferSize);
-    std::cout << requestBuffer << std::endl;
+
+    recvData();
 }
 
 void GandhiPro::Socket::closeConnection(){

@@ -7,10 +7,12 @@ namespace GandhiPro{
         public:
 
             WebSocket(int port, int bufferSize, int backlog);
-    
+            
+            ~WebSocket();
+
             void recvData();
 
-            void sendData();
-    }
+            void sendData(char *data);
+    };
 }
 

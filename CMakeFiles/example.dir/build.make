@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pratham/Projects/WebServer
+CMAKE_SOURCE_DIR = /home/pratham/Projects/Networking
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pratham/Projects/WebServer
+CMAKE_BINARY_DIR = /home/pratham/Projects/Networking
 
 # Include any dependencies generated for this target.
 include CMakeFiles/example.dir/depend.make
@@ -72,48 +72,78 @@ include CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/Examples/testSocket.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/Examples/testSocket.cpp.o: Examples/testSocket.cpp
 CMakeFiles/example.dir/Examples/testSocket.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/WebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/Examples/testSocket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Examples/testSocket.cpp.o -MF CMakeFiles/example.dir/Examples/testSocket.cpp.o.d -o CMakeFiles/example.dir/Examples/testSocket.cpp.o -c /home/pratham/Projects/WebServer/Examples/testSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/Networking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/Examples/testSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Examples/testSocket.cpp.o -MF CMakeFiles/example.dir/Examples/testSocket.cpp.o.d -o CMakeFiles/example.dir/Examples/testSocket.cpp.o -c /home/pratham/Projects/Networking/Examples/testSocket.cpp
 
 CMakeFiles/example.dir/Examples/testSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/Examples/testSocket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/WebServer/Examples/testSocket.cpp > CMakeFiles/example.dir/Examples/testSocket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/Networking/Examples/testSocket.cpp > CMakeFiles/example.dir/Examples/testSocket.cpp.i
 
 CMakeFiles/example.dir/Examples/testSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/Examples/testSocket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/WebServer/Examples/testSocket.cpp -o CMakeFiles/example.dir/Examples/testSocket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/Networking/Examples/testSocket.cpp -o CMakeFiles/example.dir/Examples/testSocket.cpp.s
+
+CMakeFiles/example.dir/Server/http_server.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/Server/http_server.cpp.o: Server/http_server.cpp
+CMakeFiles/example.dir/Server/http_server.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/Networking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/example.dir/Server/http_server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Server/http_server.cpp.o -MF CMakeFiles/example.dir/Server/http_server.cpp.o.d -o CMakeFiles/example.dir/Server/http_server.cpp.o -c /home/pratham/Projects/Networking/Server/http_server.cpp
+
+CMakeFiles/example.dir/Server/http_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/Server/http_server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/Networking/Server/http_server.cpp > CMakeFiles/example.dir/Server/http_server.cpp.i
+
+CMakeFiles/example.dir/Server/http_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/Server/http_server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/Networking/Server/http_server.cpp -o CMakeFiles/example.dir/Server/http_server.cpp.s
+
+CMakeFiles/example.dir/Server/web_socket.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/Server/web_socket.cpp.o: Server/web_socket.cpp
+CMakeFiles/example.dir/Server/web_socket.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/Networking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/example.dir/Server/web_socket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Server/web_socket.cpp.o -MF CMakeFiles/example.dir/Server/web_socket.cpp.o.d -o CMakeFiles/example.dir/Server/web_socket.cpp.o -c /home/pratham/Projects/Networking/Server/web_socket.cpp
+
+CMakeFiles/example.dir/Server/web_socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/Server/web_socket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/Networking/Server/web_socket.cpp > CMakeFiles/example.dir/Server/web_socket.cpp.i
+
+CMakeFiles/example.dir/Server/web_socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/Server/web_socket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/Networking/Server/web_socket.cpp -o CMakeFiles/example.dir/Server/web_socket.cpp.s
 
 CMakeFiles/example.dir/Socket/socket.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/Socket/socket.cpp.o: Socket/socket.cpp
 CMakeFiles/example.dir/Socket/socket.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/WebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/example.dir/Socket/socket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Socket/socket.cpp.o -MF CMakeFiles/example.dir/Socket/socket.cpp.o.d -o CMakeFiles/example.dir/Socket/socket.cpp.o -c /home/pratham/Projects/WebServer/Socket/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/Networking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/example.dir/Socket/socket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Socket/socket.cpp.o -MF CMakeFiles/example.dir/Socket/socket.cpp.o.d -o CMakeFiles/example.dir/Socket/socket.cpp.o -c /home/pratham/Projects/Networking/Socket/socket.cpp
 
 CMakeFiles/example.dir/Socket/socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/Socket/socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/WebServer/Socket/socket.cpp > CMakeFiles/example.dir/Socket/socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/Networking/Socket/socket.cpp > CMakeFiles/example.dir/Socket/socket.cpp.i
 
 CMakeFiles/example.dir/Socket/socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/Socket/socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/WebServer/Socket/socket.cpp -o CMakeFiles/example.dir/Socket/socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/Networking/Socket/socket.cpp -o CMakeFiles/example.dir/Socket/socket.cpp.s
 
 CMakeFiles/example.dir/Socket/socket_base.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/Socket/socket_base.cpp.o: Socket/socket_base.cpp
 CMakeFiles/example.dir/Socket/socket_base.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/WebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/example.dir/Socket/socket_base.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Socket/socket_base.cpp.o -MF CMakeFiles/example.dir/Socket/socket_base.cpp.o.d -o CMakeFiles/example.dir/Socket/socket_base.cpp.o -c /home/pratham/Projects/WebServer/Socket/socket_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pratham/Projects/Networking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/example.dir/Socket/socket_base.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/Socket/socket_base.cpp.o -MF CMakeFiles/example.dir/Socket/socket_base.cpp.o.d -o CMakeFiles/example.dir/Socket/socket_base.cpp.o -c /home/pratham/Projects/Networking/Socket/socket_base.cpp
 
 CMakeFiles/example.dir/Socket/socket_base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/Socket/socket_base.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/WebServer/Socket/socket_base.cpp > CMakeFiles/example.dir/Socket/socket_base.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pratham/Projects/Networking/Socket/socket_base.cpp > CMakeFiles/example.dir/Socket/socket_base.cpp.i
 
 CMakeFiles/example.dir/Socket/socket_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/Socket/socket_base.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/WebServer/Socket/socket_base.cpp -o CMakeFiles/example.dir/Socket/socket_base.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pratham/Projects/Networking/Socket/socket_base.cpp -o CMakeFiles/example.dir/Socket/socket_base.cpp.s
 
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/Examples/testSocket.cpp.o" \
+"CMakeFiles/example.dir/Server/http_server.cpp.o" \
+"CMakeFiles/example.dir/Server/web_socket.cpp.o" \
 "CMakeFiles/example.dir/Socket/socket.cpp.o" \
 "CMakeFiles/example.dir/Socket/socket_base.cpp.o"
 
@@ -121,11 +151,13 @@ example_OBJECTS = \
 example_EXTERNAL_OBJECTS =
 
 Examples/example: CMakeFiles/example.dir/Examples/testSocket.cpp.o
+Examples/example: CMakeFiles/example.dir/Server/http_server.cpp.o
+Examples/example: CMakeFiles/example.dir/Server/web_socket.cpp.o
 Examples/example: CMakeFiles/example.dir/Socket/socket.cpp.o
 Examples/example: CMakeFiles/example.dir/Socket/socket_base.cpp.o
 Examples/example: CMakeFiles/example.dir/build.make
 Examples/example: CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pratham/Projects/WebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Examples/example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pratham/Projects/Networking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Examples/example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +169,6 @@ CMakeFiles/example.dir/clean:
 .PHONY : CMakeFiles/example.dir/clean
 
 CMakeFiles/example.dir/depend:
-	cd /home/pratham/Projects/WebServer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pratham/Projects/WebServer /home/pratham/Projects/WebServer /home/pratham/Projects/WebServer /home/pratham/Projects/WebServer /home/pratham/Projects/WebServer/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pratham/Projects/Networking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pratham/Projects/Networking /home/pratham/Projects/Networking /home/pratham/Projects/Networking /home/pratham/Projects/Networking /home/pratham/Projects/Networking/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example.dir/depend
 

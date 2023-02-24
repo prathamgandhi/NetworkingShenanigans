@@ -1,9 +1,10 @@
 
 #include <iostream>
-#include "../Socket/socket.hpp"
+#include "../Server/web_socket.hpp"
 
 int main(){
-    GandhiPro::Socket socks(AF_INET, SOCK_STREAM, 0, 8080, INADDR_ANY, GandhiPro::Socket::BIND, 30000, 10);
-    socks.listenConnection();
-    socks.closeConnection();
+    GandhiPro::WebSocket webSocket(8080, 30000, 10);
+    webSocket.listenConnection();
+    char data[] = "Some data from ma' side";
+    webSocket.sendData(data);
 }

@@ -1,8 +1,8 @@
 CMakeFiles/example.dir/Socket/socket.cpp.o: \
- /home/pratham/Projects/WebServer/Socket/socket.cpp \
+ /home/pratham/Projects/Networking/Socket/socket.cpp \
  /usr/include/stdc-predef.h \
- /home/pratham/Projects/WebServer/Socket/socket.hpp \
- /home/pratham/Projects/WebServer/Socket/socket_base.hpp \
+ /home/pratham/Projects/Networking/Socket/socket.hpp \
+ /home/pratham/Projects/Networking/Socket/socket_base.hpp \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -45,53 +45,33 @@ CMakeFiles/example.dir/Socket/socket.cpp.o: \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
- /usr/include/c++/12.2.1/iostream \
+ /usr/include/c++/12.2.1/string \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/12.2.1/pstl/pstl_config.h \
- /usr/include/c++/12.2.1/ostream /usr/include/c++/12.2.1/ios \
- /usr/include/c++/12.2.1/iosfwd /usr/include/c++/12.2.1/bits/stringfwd.h \
+ /usr/include/c++/12.2.1/bits/stringfwd.h \
  /usr/include/c++/12.2.1/bits/memoryfwd.h \
+ /usr/include/c++/12.2.1/bits/char_traits.h \
  /usr/include/c++/12.2.1/bits/postypes.h /usr/include/c++/12.2.1/cwchar \
  /usr/include/wchar.h /usr/include/bits/wchar.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/c++/12.2.1/exception \
- /usr/include/c++/12.2.1/bits/exception.h \
- /usr/include/c++/12.2.1/bits/exception_ptr.h \
- /usr/include/c++/12.2.1/bits/exception_defines.h \
- /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
- /usr/include/c++/12.2.1/typeinfo \
- /usr/include/c++/12.2.1/bits/hash_bytes.h /usr/include/c++/12.2.1/new \
- /usr/include/c++/12.2.1/bits/move.h /usr/include/c++/12.2.1/type_traits \
- /usr/include/c++/12.2.1/bits/nested_exception.h \
- /usr/include/c++/12.2.1/bits/char_traits.h \
- /usr/include/c++/12.2.1/cstdint \
+ /usr/include/c++/12.2.1/type_traits /usr/include/c++/12.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/c++/12.2.1/bits/localefwd.h \
+ /usr/include/stdint.h /usr/include/c++/12.2.1/bits/allocator.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/12.2.1/bits/new_allocator.h /usr/include/c++/12.2.1/new \
+ /usr/include/c++/12.2.1/bits/exception.h \
+ /usr/include/c++/12.2.1/bits/functexcept.h \
+ /usr/include/c++/12.2.1/bits/exception_defines.h \
+ /usr/include/c++/12.2.1/bits/move.h \
+ /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+ /usr/include/c++/12.2.1/bits/localefwd.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/12.2.1/clocale /usr/include/locale.h \
- /usr/include/bits/locale.h /usr/include/c++/12.2.1/cctype \
- /usr/include/ctype.h /usr/include/c++/12.2.1/bits/ios_base.h \
- /usr/include/c++/12.2.1/ext/atomicity.h \
- /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
- /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
- /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
- /usr/include/bits/types/struct___jmp_buf_tag.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
- /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
- /usr/include/sys/single_threaded.h \
- /usr/include/c++/12.2.1/bits/locale_classes.h \
- /usr/include/c++/12.2.1/string /usr/include/c++/12.2.1/bits/allocator.h \
- /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/12.2.1/bits/new_allocator.h \
- /usr/include/c++/12.2.1/bits/functexcept.h \
- /usr/include/c++/12.2.1/bits/cpp_type_traits.h \
+ /usr/include/bits/locale.h /usr/include/c++/12.2.1/iosfwd \
+ /usr/include/c++/12.2.1/cctype /usr/include/ctype.h \
  /usr/include/c++/12.2.1/bits/ostream_insert.h \
  /usr/include/c++/12.2.1/bits/cxxabi_forced.h \
  /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h \
@@ -119,6 +99,7 @@ CMakeFiles/example.dir/Socket/socket.cpp.o: \
  /usr/include/c++/12.2.1/bits/stl_construct.h \
  /usr/include/c++/12.2.1/string_view \
  /usr/include/c++/12.2.1/bits/functional_hash.h \
+ /usr/include/c++/12.2.1/bits/hash_bytes.h \
  /usr/include/c++/12.2.1/bits/string_view.tcc \
  /usr/include/c++/12.2.1/ext/string_conversions.h \
  /usr/include/c++/12.2.1/cstdlib /usr/include/stdlib.h \
@@ -131,6 +112,26 @@ CMakeFiles/example.dir/Socket/socket.cpp.o: \
  /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/12.2.1/bits/charconv.h \
  /usr/include/c++/12.2.1/bits/basic_string.tcc \
+ /usr/include/c++/12.2.1/iostream /usr/include/c++/12.2.1/ostream \
+ /usr/include/c++/12.2.1/ios /usr/include/c++/12.2.1/exception \
+ /usr/include/c++/12.2.1/bits/exception_ptr.h \
+ /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+ /usr/include/c++/12.2.1/typeinfo \
+ /usr/include/c++/12.2.1/bits/nested_exception.h \
+ /usr/include/c++/12.2.1/bits/ios_base.h \
+ /usr/include/c++/12.2.1/ext/atomicity.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
+ /usr/include/c++/12.2.1/bits/locale_classes.h \
  /usr/include/c++/12.2.1/bits/locale_classes.tcc \
  /usr/include/c++/12.2.1/system_error \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \

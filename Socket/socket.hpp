@@ -1,10 +1,16 @@
 
 #include "socket_base.hpp"
-
+#include <string>
 namespace GandhiPro{
+
+    class socket_read_exception{
+
+    };
+
+
     class Socket : public SocketBase{
 
-        private:
+        protected:
             
             char *requestBuffer;
             int acceptConnection;
@@ -23,6 +29,6 @@ namespace GandhiPro{
 
             virtual void recvData() = 0;
 
-            virtual void sendData() = 0;
+            virtual void sendData(char *data) = 0;
     };
 }

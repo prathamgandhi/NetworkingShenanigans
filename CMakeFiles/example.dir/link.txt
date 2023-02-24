@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/example.dir/Examples/testSocket.cpp.o CMakeFiles/example.dir/Socket/socket.cpp.o CMakeFiles/example.dir/Socket/socket_base.cpp.o -o Examples/example 
+/usr/bin/c++ -rdynamic CMakeFiles/example.dir/Examples/testSocket.cpp.o CMakeFiles/example.dir/Server/http_server.cpp.o CMakeFiles/example.dir/Server/web_socket.cpp.o CMakeFiles/example.dir/Socket/socket.cpp.o CMakeFiles/example.dir/Socket/socket_base.cpp.o -o Examples/example 

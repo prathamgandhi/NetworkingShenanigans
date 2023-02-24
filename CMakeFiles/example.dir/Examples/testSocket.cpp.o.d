@@ -1,5 +1,5 @@
 CMakeFiles/example.dir/Examples/testSocket.cpp.o: \
- /home/pratham/Projects/WebServer/Examples/testSocket.cpp \
+ /home/pratham/Projects/Networking/Examples/testSocket.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12.2.1/iostream \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -132,8 +132,9 @@ CMakeFiles/example.dir/Examples/testSocket.cpp.o: \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc \
- /home/pratham/Projects/WebServer/Examples/../Socket/socket.hpp \
- /home/pratham/Projects/WebServer/Examples/../Socket/socket_base.hpp \
+ /home/pratham/Projects/Networking/Examples/../Server/web_socket.hpp \
+ /home/pratham/Projects/Networking/Examples/../Server/../Socket/socket.hpp \
+ /home/pratham/Projects/Networking/Examples/../Server/../Socket/socket_base.hpp \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
